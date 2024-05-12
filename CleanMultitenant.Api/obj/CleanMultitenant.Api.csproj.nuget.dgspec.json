@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Api\\CleanMultitenant.Api.csproj": {}
+    "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Api\\CleanMultitenant.Api.csproj": {}
   },
   "projects": {
-    "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Api\\CleanMultitenant.Api.csproj": {
+    "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Api\\CleanMultitenant.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Api\\CleanMultitenant.Api.csproj",
+        "projectUniqueName": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Api\\CleanMultitenant.Api.csproj",
         "projectName": "CleanMultitenant.Api",
-        "projectPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Api\\CleanMultitenant.Api.csproj",
-        "packagesPath": "C:\\Users\\web2d\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Api\\obj\\",
+        "projectPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Api\\CleanMultitenant.Api.csproj",
+        "packagesPath": "C:\\Users\\bdcru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\web2d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bdcru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj": {
-                "projectPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj"
+              "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj": {
+                "projectPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj"
               },
-              "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj": {
-                "projectPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj"
+              "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj": {
+                "projectPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj"
               }
             }
           }
@@ -46,6 +46,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,24 +83,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -104,24 +91,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj": {
+    "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj",
+        "projectUniqueName": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj",
         "projectName": "CleanMultitenant.Application",
-        "projectPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj",
-        "packagesPath": "C:\\Users\\web2d\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Application\\obj\\",
+        "projectPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Application\\CleanMultitenant.Application.csproj",
+        "packagesPath": "C:\\Users\\bdcru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\web2d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bdcru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -137,11 +124,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj": {
-                "projectPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj"
+              "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj": {
+                "projectPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj"
               },
-              "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj": {
-                "projectPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj"
+              "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj": {
+                "projectPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj"
               }
             }
           }
@@ -150,6 +137,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -172,43 +164,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj": {
+    "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj",
         "projectName": "CleanMultitenant.Domain",
-        "projectPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj",
-        "packagesPath": "C:\\Users\\web2d\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Domain\\obj\\",
+        "projectPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj",
+        "packagesPath": "C:\\Users\\bdcru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\web2d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bdcru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -230,6 +208,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -252,43 +235,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj": {
+    "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj",
         "projectName": "CleanMultitenant.Infra",
-        "projectPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj",
-        "packagesPath": "C:\\Users\\web2d\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Infra\\obj\\",
+        "projectPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Infra\\CleanMultitenant.Infra.csproj",
+        "packagesPath": "C:\\Users\\bdcru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\web2d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bdcru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -304,8 +273,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj": {
-                "projectPath": "D:\\Downloads\\clean-multitenant-main (1)\\clean-multitenant-main\\CleanMultitenant\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj"
+              "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj": {
+                "projectPath": "C:\\Users\\bdcru\\OneDrive\\Documents\\Projects\\Test321\\CleanMultitenant.Domain\\CleanMultitenant.Domain.csproj"
               }
             }
           }
@@ -314,6 +283,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -346,20 +320,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -368,7 +328,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -35,10 +35,12 @@ namespace CleanMultitenant.Infra.Services.Security
 
         public string GetTenant()
         {
-            ArgumentNullException.ThrowIfNull(_contextAccessor?.HttpContext?.Request.RouteValues["slugTenant"]?.ToString());
+            //ArgumentNullException.ThrowIfNull(_contextAccessor?.HttpContext?.Request.RouteValues["slugTenant"]?.ToString());
 
-            var tenant = _contextAccessor.HttpContext!.Request.RouteValues["slugTenant"]!.ToString();
-            return tenant!;
+            //var tenant = _contextAccessor.HttpContext!.Request.RouteValues["slugTenant"]!.ToString();
+            //return tenant!;
+
+            return "";
         }
 
         private IEnumerable<Claim> GenerateClaims(User user)

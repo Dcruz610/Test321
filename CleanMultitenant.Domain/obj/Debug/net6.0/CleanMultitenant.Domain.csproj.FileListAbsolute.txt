@@ -3,3 +3,16 @@ D:\Downloads\clean-multitenant-main (1)\clean-multitenant-main\CleanMultitenant\
 D:\Downloads\clean-multitenant-main (1)\clean-multitenant-main\CleanMultitenant\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.AssemblyInfoInputs.cache
 D:\Downloads\clean-multitenant-main (1)\clean-multitenant-main\CleanMultitenant\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.AssemblyInfo.cs
 D:\Downloads\clean-multitenant-main (1)\clean-multitenant-main\CleanMultitenant\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\bin\Debug\net6.0\CleanMultitenant.Domain.deps.json
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\bin\Debug\net6.0\CleanMultitenant.Domain.dll
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\bin\Debug\net6.0\CleanMultitenant.Domain.pdb
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.csproj.AssemblyReference.cache
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.AssemblyInfoInputs.cache
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.AssemblyInfo.cs
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.sourcelink.json
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.dll
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\refint\CleanMultitenant.Domain.dll
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\CleanMultitenant.Domain.pdb
+C:\Users\bdcru\OneDrive\Documents\Projects\Test321\CleanMultitenant.Domain\obj\Debug\net6.0\ref\CleanMultitenant.Domain.dll

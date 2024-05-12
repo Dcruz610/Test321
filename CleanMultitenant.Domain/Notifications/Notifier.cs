@@ -9,7 +9,7 @@
             _notifications = new List<Notification>();
         }
 
-        public async Task<List<Notification>> GetNotifications()
+        public List<Notification> GetNotifications()
         {
             return _notifications;
         }

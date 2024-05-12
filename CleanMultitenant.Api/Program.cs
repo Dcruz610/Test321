@@ -7,6 +7,7 @@ using CleanMultitenant.Infra.Contexts.Internal;
 using CleanMultitenant.Infra.Contexts.Tenant;
 using CleanMultitenant.Infra.Repositories.Internal;
 using CleanMultitenant.Infra.Services.Security;
+using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,19 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+
+
+
+builder.Services.AddDbContext<InternalDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("InternalDb"));
+});
+
+builder.Services.AddDbContext<TenantDbContext>();
+builder.Services.AddScoped<ITenantDbContext, TenantDbContext>();
+
+
 builder.Services.AddIdentityCore<User>(options =>
 {
     options.Password.RequireDigit = false;
@@ -23,26 +37,24 @@ builder.Services.AddIdentityCore<User>(options =>
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = false;
     options.Tokens.PasswordResetTokenProvider = TokenOptions.DefaultProvider;
-}).AddEntityFrameworkStores<InternalDbContext>();
+})
+    .AddEntityFrameworkStores<InternalDbContext>()
+    .AddSignInManager();
 
-builder.Services.AddDbContext<InternalDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("lnternal"));
-});
-
-builder.Services.AddDbContext<TenantDbContext>();
-builder.Services.AddScoped<ITenantDbContext>(provider => provider.GetService<TenantDbContext>());
 
 builder.Services.AddControllers();
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(AddUserRequestHandler)));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(AddUserRequestHandler).Assembly));
 
 builder.Services.AddScoped<IOrganizationRepository, OrganizationRepository>();
 builder.Services.AddScoped<INotifier, Notifier>();
+builder.Services.AddScoped<IMediator, Mediator>();
+builder.Services.AddScoped<ISecurityService, SecurityService>();
 
 builder.Services.AddHttpContextAccessor();
 
-var section = builder.Configuration.GetSection("J2tConfig");
+var section = builder.Configuration.GetSection("JwtConfig");
 builder.Services.Configure<JwtConfig>(section);
+
 var config = section.Get<JwtConfig>();
 builder.Services.AddAuthentication(x =>
 {

@@ -9,7 +9,6 @@ namespace CleanMultitenant.Domain.Models.Internal
         }
 
         public string Email { get; set; }
-        public string Password { get; set; }
         public Guid OrganizationId { get; set; }
     }
 }
